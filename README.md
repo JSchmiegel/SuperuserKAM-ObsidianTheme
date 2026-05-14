@@ -14,6 +14,7 @@ This Color Theme was original only a [terminal theme](https://github.com/JSchmie
     git clone https://github.com/JSchmiegel/SuperuserKAM-ObsidianTheme.git "SuperuserKAM-ObsidianTheme"
     ```
 3. Enable the theme by opening **Settings** in Obsidian. Then go to **Appearance**. Next to **Themes**, select **SuperuperKAM-ObsidianTheme** from the dropdown list. 
+4. **Additional Improvement:** Set the **Accent color** to `#80E0A7`.
 
 
 ## Terminal Theme
