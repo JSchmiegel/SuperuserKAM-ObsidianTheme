@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -8,6 +10,140 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--font-text-theme: "Roboto Mono";
+	--font-monospace-theme: "Roboto Mono";
+	--font-text-weight: 500;
+}
+
+.theme-dark {
+  /* ── Backgrounds ── */
+  --background-primary: #252a36;
+  --background-primary-alt: #1b1e27;
+  --background-secondary: #2f3645;
+  --background-secondary-alt: #3a4254;
+  --background-modifier-hover: rgba(58, 66, 84, 0.5);
+  --background-modifier-active-hover: rgba(54, 99, 155, 0.2);
+  --background-modifier-border: #3e4452;
+  --background-modifier-border-hover: #425563;
+  --background-modifier-border-focus: #80E0A7;
+  --background-modifier-form-field: #252a36;
+  --background-modifier-box-shadow: #23252c;
+  --background-modifier-success: rgba(56, 177, 105, 0.2);
+  --background-modifier-error: rgba(246, 92, 77, 0.2);
+  --background-modifier-error-rgb: 246, 92, 77;
+  --background-modifier-success-rgb: 56, 177, 105;
+
+  /* ── Text ── */
+  --text-normal: #d4d4d4;
+  --text-muted: #B4B4B4;
+  --text-faint: #425563;
+  --text-on-accent: #252a36;
+  --text-error: #F65C4D;
+  --text-warning: #F6A728;
+  --text-success: #38B169;
+  --text-accent: #80E0A7;
+  --text-accent-hover: #a8edca;
+  --text-selection: rgba(54, 99, 155, 0.5);
+  --text-highlight-bg: rgba(54, 99, 155, 0.4);
+
+  /* ── Interactive ── */
+  --interactive-normal: #2f3645;
+  --interactive-hover: #3a4254;
+  --interactive-accent: #36639B;
+  --interactive-accent-rgb: 54, 99, 155;
+  --interactive-accent-hover: #4a7ac7;
+  --interactive-success: #38B169;
+
+  /* ── Icons ── */
+  --icon-color: #80E0A7;
+  --icon-color-hover: #a8edca;
+  --icon-color-active: #80E0A7;
+  --icon-color-focused: #80E0A7;
+
+  /* ── Scrollbar ── */
+  --scrollbar-bg: transparent;
+  --scrollbar-thumb-bg: rgba(78, 86, 102, 0.38);
+  --scrollbar-active-thumb-bg: rgba(116, 125, 145, 0.5);
+
+  /* ── Dividers ── */
+  --divider-color: #3e4452;
+  --divider-color-hover: #425563;
+
+  /* ── Tabs ── */
+  --tab-text-color: #9da5b4;
+  --tab-text-color-focused: #dcdcdc;
+  --tab-text-color-focused-active: #dcdcdc;
+  --tab-text-color-focused-highlighted: #80E0A7;
+  --tab-background-active: #252a36;
+  --tab-outline-color: #181a1f;
+
+  /* ── Headings ── */
+  --h1-color: #FF9287;
+  --h2-color: #FF9287;
+  --h3-color: #F6A728;
+  --h4-color: #FFDE31;
+  --h5-color: #80E0A7;
+  --h6-color: #66C7F9;
+
+  /* ── Inline formatting ── */
+  --bold-color: #F6A728;
+  --italic-color: #9C83F8;
+  --text-strikethrough-color: #425563;
+
+  /* ── Links ── */
+  --link-color: #66C7F9;
+  --link-color-hover: #A3E9F1;
+  --link-external-color: #9C83F8;
+  --link-external-color-hover: #b8a5f9;
+  --link-unresolved-color: #9C83F8;
+  --link-unresolved-opacity: 0.5;
+
+  /* ── Tags ── */
+  --tag-color: #80E0A7;
+  --tag-background: rgba(54, 99, 155, 0.2);
+  --tag-border-color: rgba(128, 224, 167, 0.3);
+  --tag-background-hover: rgba(54, 99, 155, 0.35);
+
+  /* ── Code ── */
+  --code-background: #1b1e27;
+  --code-normal: #B4B4B4;
+  --code-comment: #d780e0;
+  --code-function: #80E0A7;
+  --code-important: #9C83F8;
+  --code-keyword: #9C83F8;
+  --code-operator: #66C7F9;
+  --code-property: #FF9287;
+  --code-punctuation: #B4B4B4;
+  --code-string: #38B169;
+  --code-tag: #FF9287;
+  --code-value: #F6A728;
+  --inline-code-background: #2f3645;
+
+  /* ── Blockquote ── */
+  --blockquote-border-color: #80E0A7;
+  --blockquote-color: #425563;
+  --blockquote-background-color: #1b1e27;
+
+  /* ── Callouts ── */
+  --callout-default: 128, 224, 167;
+  --callout-info: 102, 199, 249;
+  --callout-todo: 54, 99, 155;
+  --callout-warning: 246, 167, 40;
+  --callout-error: 246, 92, 77;
+  --callout-success: 56, 177, 105;
+  --callout-question: 156, 131, 248;
+  --callout-bug: 246, 92, 77;
+  --callout-example: 156, 131, 248;
+  --callout-quote: 66, 85, 99;
+
+  /* ── File explorer / nav ── */
+  --nav-item-color: #B4B4B4;
+  --nav-item-color-hover: #FFFFFF;
+  --nav-item-color-active: #80E0A7;
+  --nav-item-background-hover: rgba(37, 42, 54, 0.8);
+  --nav-item-background-active: #252a36;
+  --nav-collapse-icon-color: #425563;
+  --nav-indentation-guide-color: rgba(66, 85, 99, 0.5);
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {

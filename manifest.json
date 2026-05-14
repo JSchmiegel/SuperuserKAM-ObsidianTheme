@@ -1,7 +1,7 @@
 {
-	"name": "Sample Theme",
-	"version": "1.0.0",
+	"name": "SuperuserKAM-ObsidianTheme",
+	"version": "0.0.1",
 	"minAppVersion": "1.0.0",
-	"author": "Obsidian",
+	"author": "Jonas Schmiegel",
 	"authorUrl": "https://obsidian.md"
 }
