@@ -11,7 +11,7 @@ This Color Theme was original only a [terminal theme](https://github.com/JSchmie
     ```
 2. Clone the sample theme using Git.
     ```bash
-    git clone https://github.com/obsidianmd/obsidian-sample-theme.git "SuperuserKAM-ObsidianTheme"
+    git clone https://github.com/JSchmiegel/SuperuserKAM-ObsidianTheme.git "SuperuserKAM-ObsidianTheme"
     ```
 3. Enable the theme by opening **Settings** in Obsidian. Then go to **Appearance**. Next to **Themes**, select **SuperuperKAM-ObsidianTheme** from the dropdown list. 
 
