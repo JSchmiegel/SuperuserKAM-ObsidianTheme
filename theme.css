@@ -13,6 +13,7 @@ body {
 	--font-text-theme: "Roboto Mono";
 	--font-monospace-theme: "Roboto Mono";
 	--font-text-weight: 500;
+    --file-line-width: 900px;
 }
 
 .theme-dark {
